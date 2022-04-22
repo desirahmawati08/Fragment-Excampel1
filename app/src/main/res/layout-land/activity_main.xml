@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/fragmentbooktitle"
+        android:name="com.example.fragmentexcampel.BookTitles"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/book_titles" />
+
+    <fragment
+        android:id="@+id/fragmentbookdescription"
+        android:name="com.example.fragmentexcampel.BookDescription"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/book_description" />
+
+</LinearLayout>
